@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body id="page-top">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/django.js/0.8.1/django.min.js"></script>
+    <script src="script.js"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/CoLinkEdLOGO.png" width="20%">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+          <a class="nav-link" href="#students">Students<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Classes">My Classes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My Profile</a>
+        </li>
+       </ul>
+      </div>
+    </nav>
+
+    <section class="Instructor-section-students card-white" id="students">
+      
+        <h3>Students</h3>
+      
+      <div class="flex-container">
+
+        <!-- The instructors the student has already been with-->
+        <div class="card" style="width: 18rem;">
+          <h5 class="card-title">My Students</h5>
+          <ul class="list-group list-group-flush">
+            <a href="examplelink">
+              <li class="card-button card-blue">John Doe</li>
+            </a>
+            <a href="examplelink">
+              <li class="card-button card-blue">Mary Jane</li>
+            </a>
+            <a href="examplelink">
+              <li class="card-button card-blue">Raspberry Pi</li>
+            </a>
+          </ul>
+        </div>
+        
+
+        <!-- Add a student-->
+        <div class="card" style="width: 18rem;">
+            <h5 class="card-title">Add a Student</h5>
+            <ul class="list-group list-group-flush">
+              <li> 
+                <input class="form-control" type="search" placeholder="Student Name." aria-label="Search">
+              </li>
+              <li> 
+                <input class="form-control" type="search" placeholder="Student Email" aria-label="Search">
+              </li>
+          
+            <a href="examplelink" type="submit">
+              <li class="card-button card-blue">Send Invite</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Classes-->
+    <section class="student-section-classes card-white" id="Classes">
+      
+        <h3>My Classes</h3>
+      
+      <div class="flex-container">
+
+        <!-- Classes-->
+        <div class="card" style="width: 18rem;">
+          <h5 class="card-title">My Classes</h5>
+          <ul class="list-group list-group-flush">
+            <a href="examplelink">
+              <li class="card-button card-blue">Physics</li>
+            </a>
+            <a href="examplelink">
+              <li class="card-button card-blue">Quantum Mechanics</li>
+            </a>
+            <a href="examplelink">
+              <li class="card-button card-blue">String Theory</li>
+            </a>
+          </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <h5 class="card-title">Invite to Class</h5>
+            <ul class="list-group list-group-flush">
+              <li> 
+                <input class="form-control" type="search" placeholder="Student Name." aria-label="Search">
+              </li>
+              <li> 
+                <input class="form-control" type="search" placeholder="Class Name" aria-label="Search">
+              </li>
+          
+            <a href="examplelink" type="submit">
+              <li class="card-button card-blue">Send Invite</li>
+            </a>
+          </ul>
+            <form class="form-inline">
+            </form>
+        </div>
+        
+        <!-- Create a Class -->
+        <div class="card" style="width: 18rem;">
+            <h5 class="card-title">Create a Class</h5>
+            <ul class="list-group list-group-flush">
+              <li> 
+                <input class="form-control" type="search" placeholder="Class Name" aria-label="Search">
+              </li>
+            <a href="examplelink" type="submit">
+              <li class="card-button card-blue">Create</li>
+            </a>
+          </ul>
+            <form class="form-inline">
+            </form>
+        </div>
+      </div>
+    </section>
+
+  </body>
+
+
+
+
+
+
+</html>
